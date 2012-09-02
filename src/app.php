@@ -13,6 +13,10 @@ $app->register(new TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../views',
 ));
 
+/**  Config */
+$app['config'] = [
+    'web_dir' => '/climb'
+];
 
 /** Controller */
 $app->get('/', function() use($app) {
