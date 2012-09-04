@@ -8,7 +8,19 @@
                 "source"  : {
                     "url"       : "https://github.com/failpunk/bootstrap.git",
                     "type"      : "git",
-                    "reference" : "v2.1"
+                    "reference" : "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name"    : "facebook/facebook-sdk",
+                "version" : "1.0",
+                "source"  : {
+                    "url"       : "https://github.com/facebook/facebook-php-sdk.git",
+                    "type"      : "git",
+                    "reference" : "master"
                 }
             }
         }
@@ -16,7 +28,8 @@
     "require": {
         "silex/silex": "1.0.*",
         "twig/twig": "1.*",
-		"twitter/bootstrap": "2.1"
+		"twitter/bootstrap": "2.1",
+		"facebook/facebook-sdk": "1.*"
     },
     "minimum-stability": "dev"
 }

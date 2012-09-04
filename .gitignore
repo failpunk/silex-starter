@@ -3,3 +3,4 @@
 /log/*
 /vendor/
 /web/assets/*
+/web/.sass-cache/*
