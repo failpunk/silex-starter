@@ -21,7 +21,7 @@ Installation
 
 Run the following:
 
-    git clone https://github.com/failpunk/silex-starter.git
-    cd PATH_TO_APP
-    curl -s http://getcomposer.org/installer | php
-    php composer.phar install
+    $ git clone https://github.com/failpunk/silex-starter.git
+    $ cd PATH_TO_APP
+    $ curl -s http://getcomposer.org/installer | php
+    $ php composer.phar install
